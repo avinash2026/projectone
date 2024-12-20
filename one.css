@@ -231,6 +231,23 @@
   #box-4 .price{
    margin-top: 75px;
   }
+
+  @media (max-width:325px){
+    /*.sec-3 .box{
+      height: 400px;
+    }*/
+    .box .price{
+      font-size: 40px;
+    }
+    .box .btn1{
+      width: 90px;
+      height: 40px;
+    }
+    .box .btn2{
+      width: 140px;
+      height: 40px;
+    }
+  }
   /*..................................................sec4...................................................*/
   
   .bg3 h2{
@@ -298,3 +315,11 @@
     }
   }
   /*.................................................sec6......................................................*/
+
+  .bg5 h2{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-size: 40px;
+    text-decoration: underline;
+  }
