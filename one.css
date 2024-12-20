@@ -232,7 +232,7 @@
    margin-top: 75px;
   }
 
-  @media (max-width:325px){
+  @media (max-width:373px){
     .sec-3 .box{
       height: 400px;
     }
