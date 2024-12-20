@@ -317,9 +317,38 @@
   /*.................................................sec6......................................................*/
 
   .bg5 h2{
+    font-weight: normal;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 40px;
     color: white;
     font-size: 40px;
     text-decoration: underline;
   }
+  .sec-6{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .sec-6 i{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin: 40px 20px 20px 30px;
+  }
+  /*..........................................sec7..............................................*/
+
+  .sec-7{
+    text-align: center;
+    color:white;
+    margin-bottom: 30px;
+  }
+
+@media (max-width:375px){
+  .sec-6 i{
+    font-size: 25px;
+    margin: 30px 10px 10px 20px;
+  }
+  .sec-7{
+    font-size: 8px;
+  }
+}
